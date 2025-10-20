@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship</title>
+</head>
+<body>
+    <div id="startPage">
+        <h1>Welcome to BattleShip!</h1>
+        <!-- <input type="text" id="playerName" placeholder = "Enter your name" required/> -->
+        <button type="submit" id="startBtn">Start Game</button>
+    </div>
+    <div class="game">
+        <div id="turnComments"></div>
+        <div class="boards">
+            <div id="myBoardSection">
+                <button id="hor-ver" style="display: none">Vertical</button>
+                <div id="myBoard"></div>
+            </div>
+            <div id="compBoard" style="display: none;">
+                <div>Computer</div>
+            </div>
+        </div>        
+        
+        <div id="gameComments"></div>
+
+        <button id="resetBtn" style="display: none">Reset</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
