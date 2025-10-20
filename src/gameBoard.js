@@ -78,13 +78,6 @@ function GameBoard() {
                     prevCoords.push(coord);
                 }
 
-                // const isValid = prevCoords.every(coord => {
-                //     const [cx, cy] = coord.split("-").map(Number);
-                //     return (
-                //         (isHorizontal && cx + ship.length - 1 >= 10) ||
-                //         (!isHorizontal && cy - (ship.length - 1) < 1)
-                //     );
-                // });
                 prevCoords.forEach(coord => {
                     const prevCell = board.querySelector(`[data-coords="${coord}"]`);
                     if (prevCell) {

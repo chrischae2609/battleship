@@ -141,41 +141,9 @@ function battleShip(playerOne, playerTwo) {
 
 
 function restartGame() {
-    // gameComments.textContent = "";
-    // restartBtn.style.display = "none";
-    // playerForm.style.display = "block";
-    // myBoardEl.style.display = "none";
-    // compBoardEl.style.display = "none";
-
-    // myBoardEl.innerHTML = "";
-    // compBoardEl.innerHTML = "";
-
-    // myShips.forEach(s => {
-    //     s.shipType = Ship(s.shipType.length);
-    //     s.shipCoords = [];
-    // });
-    // compShips.forEach(s => {
-    //     s.shipType = Ship(s.shipType.length);
-    //     s.compCoords = [];
-    // });
-
-    // me.board = Player().board;
-    // comp.board = Player(true).board;
-
-    // gameOver = false;
-    // alert("Game reset!");
     window.location.reload();
 }
 
-        // let x, y;
-        // let coord;
-        // do {
-        //     x = Math.floor(Math.random() * 10) + 1;
-        //     y = Math.floor(Math.random() * 10) + 1;
-        //     coord = `${x}-${y}`
-        // } while (compAttacks.includes(coord))
-
-        // compAttacks.push(coord);
 
 
 // playRound pseudocode:
