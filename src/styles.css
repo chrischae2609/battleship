@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(150deg, black, rgb(53, 52, 52), rgb(104, 104, 104));
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+#startPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: white;
+}
+
+#startBtn {
+    width: 150px;
+    height: 70px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #898989;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+#startBtn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#startBtn:active{
+    transform: translateY(5px);
+    box-shadow: 0 2px #3e3e3e;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 70px;
+}
+
+#turnComments {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#gameComments {
+    font-size: 1.2rem;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+td {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(70, 69, 69);
+}
+
+.numCoord, .letterCoord {
+    color: lightblue;
+}
+/* td:hover {
+    background-color: white;
+} */
+
+.shipCoord {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.shipCoord:hover {
+    /* background-color: lightblue; */
+    cursor: pointer;
+}
+
+.boards {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#hor-ver {
+    width: 110px;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #898989;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+#hor-ver:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#hor-ver:active{
+    transform: translateY(5px);
+    box-shadow: 0 2px #3e3e3e;
+}
+
+#resetBtn {
+    width: 150px;
+    height: 70px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #898989;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+#resetBtn:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+#resetBtn:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px #3e3e3e;
+}
